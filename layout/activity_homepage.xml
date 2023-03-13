@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="25dp">
+
+        <Button
+            android:id="@+id/selectlang2"
+            android:layout_width="270dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="425dp"
+            android:layout_marginEnd="63dp"
+            android:backgroundTint="#E91E63"
+            android:onClick="logout"
+            android:text="लॉग आउट"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/selectlang"
+            android:layout_width="270dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="355dp"
+            android:layout_marginEnd="65dp"
+            android:onClick="LangSelect"
+            android:text="नई भाषा का चयन करें"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imagebutton1"
+            android:layout_width="78dp"
+            android:layout_height="83dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button1"
+            android:onClick="UserProfile"
+            android:scaleType="centerInside"
+            android:src="@drawable/userprofilepic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!-- android:textColor="#00ccff", android:textColorLink="#8DE67F"-->
+
+        <Button
+            android:id="@+id/takeaquiz"
+            android:layout_width="270dp"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="215dp"
+            android:layout_marginEnd="65dp"
+            android:onClick="TakeAQuiz"
+            android:text="प्रश्नोत्तरी लें"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/viewstories"
+            android:layout_width="270dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="65dp"
+            android:onClick="ViewStories"
+            android:text="कहानियां देखें"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="-21dp"
+            app:srcCompat="@drawable/multilingualism" />
+
+        <TextView
+            android:id="@+id/multilinetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="147dp"
+            android:layout_marginEnd="5dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            android:text="नमस्ते! आप क्या करना पसंद करेंगे?"
+            android:textAlignment="center"
+            android:textColor="#6200EE"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

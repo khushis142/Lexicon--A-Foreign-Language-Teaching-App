@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".Pg4">
+
+    <TextView
+        android:id="@+id/q4prompt"
+        android:layout_width="376dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="&quot;My Car&quot; इस वाक्य का अनुवाद करें"
+        android:textColor="#6200EE"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#E91E63"
+        android:text=" प्रस्तुत करें"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:backgroundTint="#4CAF50"
+        android:text="चेक करें"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/pani"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="215dp"
+        android:backgroundTint="#6200EE"
+        android:text="पानी"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/naam"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="215dp"
+        android:backgroundTint="#6200EE"
+        android:text="नाम"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/gaadi"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="215dp"
+        android:backgroundTint="#6200EE"
+        android:text="गाड़ी"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/answerString"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#6200EE"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/meri"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="215dp"
+        android:backgroundTint="#6200EE"
+        android:text="मेरी "
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp"
+        android:backgroundTint="#6200EE"
+        android:text="पुन: प्रयास करें"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="245dp"
+        android:layout_height="245dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/carman" />
+
+</RelativeLayout>

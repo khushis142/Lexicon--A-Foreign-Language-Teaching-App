@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LanguageSelect">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="329dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="238dp"
+            android:cursorVisible="false"
+            android:fontFamily="sans-serif-smallcaps"
+            android:soundEffectsEnabled="false"
+            android:text="For English speakers"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/purple_700"
+            android:textColorHighlight="@color/purple_200"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/korbtn"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginBottom="147dp"
+            android:backgroundTint="#9C27B0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="langSelect"
+            android:text="KOREAN"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/spnbtn"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginBottom="336dp"
+            android:backgroundTint="#9C27B0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="langSelect"
+            android:text="Spanish"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="96dp"
+            android:cursorVisible="false"
+            android:fontFamily="sans-serif-smallcaps"
+            android:soundEffectsEnabled="false"
+            android:text="हिंदी बोलने वालों के लिए"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/purple_700"
+            android:textColorHighlight="@color/purple_200"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/engbtn"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="160dp"
+            android:backgroundTint="#9C27B0"
+            android:onClick="langSelect"
+            android:text="अंग्रेज़ी"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/gmnbtn"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/itlbtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginBottom="400dp"
+            android:backgroundTint="#9C27B0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="langSelect"
+            android:text="german"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/frnbtn"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/korbtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginBottom="212dp"
+            android:backgroundTint="#9C27B0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="langSelect"
+            android:text="FRENCH"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/itlbtn"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/frnbtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginBottom="275dp"
+            android:backgroundTint="#9C27B0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="langSelect"
+            android:text="ITALIAN"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="63dp"
+            android:layout_height="91dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/languages_1891043_1597953" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/eng_flag" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="334dp"
+            app:srcCompat="@drawable/spain_flag" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="402dp"
+            app:srcCompat="@drawable/germany_flag" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="142dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/skorea_flag" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="215dp"
+            app:srcCompat="@drawable/france_flag" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="80dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="266dp"
+            app:srcCompat="@drawable/italy_flag" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="51dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:soundEffectsEnabled="false"
+            android:text="AND MORE..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/purple_700"
+            android:textColorHighlight="@color/purple_200"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="2dp"
+            android:cursorVisible="false"
+            android:fontFamily="sans-serif-smallcaps"
+            android:soundEffectsEnabled="false"
+            android:text="CHOOSE A LANGUAGE"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/purple_700"
+            android:textColorHighlight="@color/purple_200"
+            android:textSize="34sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
